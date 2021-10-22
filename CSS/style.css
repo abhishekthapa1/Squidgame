@@ -1,0 +1,93 @@
+body{
+    background-color:#000;
+    color:#fff;
+}
+nav{
+    background-color:#000;
+}
+#logo{
+    margin-left:45px;
+    margin-right:45px;
+}
+
+.logotext{
+    font-size:0.95rem;
+    color: #fff;
+  
+    cursor: default;
+    padding-right:15px;
+}
+.input-group{
+    border-left:#fff;
+    border-top:#fff;
+    border-bottom: #fff;
+}
+.input-group-text{
+    
+    background-color:#141414 ;
+    color:#fff;
+    border:none;
+}
+.fas{
+    font-size:1.3em;
+}
+.form-control{
+    background-color: #141414;
+    border:none;
+    font-size:1.3em;
+}
+.lead{
+    padding-left:18px;
+    padding-right:18px;
+    font-size:1rem;
+    margin-top:5px;
+}
+.profile{
+    
+    margin-right:8px;
+    padding-top:0;
+    border-radius:8px;
+}
+
+
+#lasticon{
+    margin-right:45px;
+    margin-top:5px;
+}
+
+
+#main{
+    background:url("../Images/background.jpg") no-repeat ;
+    background-size: cover;
+   
+}
+#SecondBody{
+   
+    background:url("../Images/main.jpg") no-repeat ;
+    background-size: cover;
+ height:78.7vh;
+   
+   
+}
+.giveshadow ,#genres{
+    background:rgba(174, 180, 187, 0.6) ;
+    color:black;
+    border-radius: 8px;
+    font-weight: 400;
+    margin-top: 340px;
+   
+}
+
+.mainlead{
+    font-weight: 500;
+}
+.seclead{
+    font-weight: 500;
+}
+.one{
+    font-weight: 500;
+}
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+
+    border-radius: 5px;
+}
